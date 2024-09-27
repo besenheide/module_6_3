@@ -34,7 +34,7 @@ class Pegasus(Horse, Eagle):
 
 
 p1 = Pegasus()
-print(p1.get_pos())  # (0, 0)
+print(p1.get_pos())
 
 p1.move(10, 15)
 print(p1.get_pos())
